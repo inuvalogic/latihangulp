@@ -1,0 +1,17 @@
+.page {
+	background: $red;
+	padding: 10px;
+
+	&:after {
+		content: '';
+	}
+
+	&.blue {
+		background: blue;
+	}
+
+	.logo {
+		color: $blue;
+	}
+
+}

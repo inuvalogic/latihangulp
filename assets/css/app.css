@@ -1,0 +1,12 @@
+body {
+  background: #333; }
+
+.page {
+  background: #ff0000;
+  padding: 10px; }
+  .page:after {
+    content: ''; }
+  .page.blue {
+    background: blue; }
+  .page .logo {
+    color: #333; }
